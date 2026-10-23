@@ -19,7 +19,7 @@ export default function page() {
   return (
     <div className='box'>
       {/* Música (fica escondida) */}
-      <audio ref={audioRef} src="/yay/musica.mp3" loop />
+      <audio ref={audioRef} src="/musica.mp3" loop />
 
       <img alt='yayyy' className='gif' src='/snoopy-yay.gif' />
       {'você me fez a pessoa mais feliz agora <3, marcarei um dia legal para os dois, prometo não descepcionar'}
