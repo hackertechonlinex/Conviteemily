@@ -32,15 +32,15 @@ export default function page() {
       <img alt='gumball' className='gif' src={`/${img}.gif`} />
       {how ? 'ahhh, infelizmente não há escolha' : 'Oi! Espero que esteja tudo bem por aí. estava pensando que seria legal a gente conversar um dia desses, a sós, pra nos conhecermos melhor se você topar e não tiver problema, claro! Podia ser na lanchonete ou na biblioteca do IFCE em uma quinta-feira. aceitaria?'}
       <div className='btns'>
-        <Link className='yes' href='/yay'>
+        <Link className='sim' href='/yay'>
           <button onMouseOver={() => updteImg('sparkle-eyes')} onMouseOut={() => updteImg('puppy-eyes')}>
-            Yes
+            sim
           </button>
         </Link>
-        <button className='no' 
+        <button className='não' 
           style={p ? {position: 'absolute', top: p.x, right: p.y} : null} 
           onClick={dontdoit} onMouseOver={nah}>
-            No
+            não
         </button> 
       </div>
     </div>
